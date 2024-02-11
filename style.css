@@ -1,0 +1,97 @@
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+
+#logo {
+    position: fixed;
+    top: 0.625em;
+    left: 0.625em;
+}
+
+.logo{
+    width: 6em;
+}
+
+header {
+    padding: 2em 0 .5em;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: .5em .9em;
+    margin-left: .2em;
+    font-size: .9em;
+    border-radius: .25em;
+    transition: transform 0.2 ease;
+}
+
+.menu:hover{
+    transform: scale(1.0);
+}
+
+.menu a:hover,
+.menu a.selected {
+    background: steelblue;
+    color: white;
+    
+}
+
+.title{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.subtitles {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.subtitles{
+    text-align: right;
+    margin-right: 30%;
+}
+
+.contenedor{
+    margin-bottom: 0;
+}
+
+.texto{
+    margin-top: 0;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 5em; 
+    right: 0.5em; 
+    transition: transform 0.5 ease; 
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 1em; 
+    right: 1em;
+    transition: transform 0.5 ease; 
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+}
+
+footer{
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+}
+  
